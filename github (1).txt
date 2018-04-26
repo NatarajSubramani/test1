@@ -1,0 +1,36 @@
+Github Scrum
+
+Fork - duplicating the repository
+Pull request - merging the changes in the original repository
+Collabration - Giving read/write access permission to the team members.
+
+
+1. Create Repository
+2. Create a new issue - it is a backlog items
+3. Milestones - it is like Sprint in Scrum
+4. Tackle the issues - go back to the root project
+5. Copy the link
+6. git clone <URL>
+7. cd <project name>
+8. Edit the file in a new branch in your local machine
+	git checkout -b <branchname> 
+9. Once made the changes in the file - commit it
+	git commit -a -m <comments>
+10. Push the changed file to the git repository
+	git push -u origin <branchname>
+11. compare and pullrequest
+12. Merge pull request
+13. Taking updated code from the repository
+	git checkout master
+	git pull
+14. Get status of the new files
+	git status
+15. Adding new file to the repository
+	git add <filename>
+	git commit -a -m <comments>
+	git push -u origin <branchname>
+
+Pullrequest from the original repository to merge the changes to it.
+Owner of the repo have the rights to accept your request and merge the new files into the master or dev branch.
+
+
